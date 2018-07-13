@@ -30,7 +30,7 @@ $aside-width: 35%;
     $horizontal-padding: 8%;
 
     width: $main-width;
-    margin-right: $main-margin-right; 
+    margin-right: $main-margin-right;
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
   @include media('>=medium', '<large') {
@@ -40,7 +40,7 @@ $aside-width: 35%;
     $horizontal-padding: 8%;
 
     width: $main-width;
-    margin-right: $main-margin-right; 
+    margin-right: $main-margin-right;
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
   @include media('>xsmall', '<medium') {
@@ -50,7 +50,7 @@ $aside-width: 35%;
     $horizontal-padding: 48px;
 
     width: $main-width;
-    margin-right: $main-margin-right; 
+    margin-right: $main-margin-right;
     padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
   }
   @include media('<=xsmall') {
@@ -60,7 +60,7 @@ $aside-width: 35%;
     $horizontal-padding: 24px;
 
     width: $main-width;
-    margin-right: $main-margin-right; 
+    margin-right: $main-margin-right;
     padding: $vertical-padding $horizontal-padding 0 $horizontal-padding;
   }
 }
@@ -140,4 +140,8 @@ $aside-width: 35%;
     width: $aside-width;
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
+}
+.blog-link {
+    font-size: 30px;
+    font-weight: bold;
 }

@@ -3,6 +3,7 @@ import ExperienceSection from '../components/ExperienceSection'
 import ProjectsSection from '../components/ProjectsSection'
 import About from '../components/Sidebar/About'
 import Links from '../components/Sidebar/Links'
+import Link from "gatsby-link"
 
 import './style.scss'
 
@@ -14,10 +15,11 @@ const IndexPage = () => (
         </h5>
 
         <h3 className="bold">
-            A engineer who is a third grade junior high school student. I want to become a Cool and Genious engineer not substituted for AI. 
+            An engineer & third grade junior high school student. I would like to be a great engineer that will not be replaced by AI. 
         </h3>
         <ProjectsSection />
         <ExperienceSection />
+        <Link to="/blog" ><h6 className="blog-link">Blog</h6></Link>
       </div>
 
       <div className="aside">

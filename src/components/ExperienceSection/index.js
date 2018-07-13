@@ -4,6 +4,7 @@ import ExperienceUnit from '../ExperienceUnit'
 
 import ochiaiLogo from '../../assets/images/experience/ochiai.jpg'
 import fitsoLogo from '../../assets/images/experience/onokatio.jpg'
+import Coord_eLogo from '../../assets/images/experience/coord_e.png'
 import kayakoLogo from '../../assets/images/experience/eruto.jpg'
 
 class ExperienceSection extends React.Component {
@@ -20,10 +21,19 @@ class ExperienceSection extends React.Component {
             subtitle='So Cool!'
           />
           <ExperienceUnit
+            logo={Coord_eLogo}
+            colour='#fff'    
+            title='Coord.e'
+            link='https://twitter.com/coord_e'
+            timeperiod=''
+            subtitle='So Cool!'
+          />
+
+          <ExperienceUnit
             logo={fitsoLogo}
             colour='#FFFFFF'
             title='Onokatio'
-            link='https://www.getfitso.com/'
+            link='https://www.twitter.com/onokatio_'
             timeperiod=''
             subtitle='So Cool!'
           />
@@ -31,7 +41,7 @@ class ExperienceSection extends React.Component {
             logo={kayakoLogo}
             colour='#fff'
             title='Eruto'
-            link='https://www.kayako.com/'
+            link='https://www.twitter.com/proelbtn'
             timeperiod=''
             subtitle='So Cool!'
           />
