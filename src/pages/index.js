@@ -15,7 +15,7 @@ const IndexPage = () => (
         </h5>
 
         <h3 className="bold">
-            An engineer & third grade junior high school student. I would like to be a great engineer that will not be replaced by AI. 
+            An engineer & third grade junior high school student. I would like to be a great engineer that will not be replaced by AI.
         </h3>
         <ProjectsSection />
         <ExperienceSection />

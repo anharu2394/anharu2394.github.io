@@ -2,6 +2,7 @@ import React from "react";
 import PostLink from "../../components/post-link";
 import Blog from "./../../components/blog"
 import Helmet from "react-helmet"
+import "./../../assets/images/blog/IMG_20180712_193037.jpg"
 const IndexPage = ({
   data: {
     allMarkdownRemark: { edges },
