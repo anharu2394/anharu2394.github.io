@@ -7,12 +7,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-remark-images`,
-      options: {
-        maxWidth: 1080,
-    },
-    },
-    {
     resolve: `gatsby-source-filesystem`,
     options: {
       path: `${__dirname}/blog`,
@@ -22,7 +16,14 @@ module.exports = {
      {
      resolve: 'gatsby-transformer-remark',
       options: {
-        plugins: [] // just in case those previously mentioned remark plugins sound cool :)
+      plugins: [
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 1080,
+          },
+        },
+      ] // just in case those previously mentioned remark plugins sound cool :)
       }
      },
     'gatsby-plugin-sass',

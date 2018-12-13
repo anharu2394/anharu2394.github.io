@@ -70,9 +70,22 @@ header {
 }
 .blog-post-container {
     margin:0px 100px;
-    padding:20px;
+    padding:50px;
     background:#ffedab;
     border-radius: 70px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 2rem;
+    table {
+      border: solid 5px #F0908D;
+      border-radius: 4px;
+      thead th {
+        border-bottom: solid 4px #00CC66;
+        border-radius: 1px;
+      }
+      th, td {
+        padding: 10px;
+      }
+    }
     @media (min-width: 0px) and (max-width: 599px) {
         .title {
             font-size:30px;
@@ -83,6 +96,7 @@ header {
         text-align: center;
         font-weight:bold;
         width: 100%;
+        font-family: 'Kosugi Maru', sans-serif;
     }
     .date{
         text-align: right;
@@ -92,7 +106,6 @@ header {
             background: linear-gradient(to right, #00CC66, #00CC66 50%, #F0908D 50%, #F0908D);
             background-size: 60px 60px;
     }
-
     img{
      width:97%;
      max-width:700px;
