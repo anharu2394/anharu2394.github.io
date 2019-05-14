@@ -6,3 +6,11 @@ title: "Hello World"
 
 
 # Hello World
+
+```ruby:title=hello.rb
+module Hello
+  def hello
+    puts "Hello World"
+  end
+end
+```

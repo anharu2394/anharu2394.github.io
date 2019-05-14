@@ -10,7 +10,7 @@ header {
             width:60px;
             height:60px;
             img {
-                border: 5px solid  #ffedab;
+                border: 5px solid  #fff5d0;
                 border-radius:40px;
                 width:70px;
                 height:70px;
@@ -36,7 +36,7 @@ header {
             text-decoration:none;
         }
         .button{
-            border: 7px solid #ffedab;
+            border: 7px solid #fff5d0;
             border-radius:35px;
             position: relative;
             margin-left:30px;
@@ -53,7 +53,7 @@ header {
     }
 }
 .title-all {
-    border: 7px solid #ffedab;
+    border: 7px solid #fff5d0;
     border-radius:80px;
     position: relative;
     width: 500px;
@@ -61,21 +61,23 @@ header {
     padding:25px;
     font-weight: bold;
     letter-spacing:10px;
+    text-align: center;
 }
 @media (min-width: 0px) and (max-width: 599px) {
     .title-all {
         width:300px;
-        font-size:30px;
+        font-size: 2.5rem;
     }
 }
 .blog-post-container {
     margin:0px 100px;
-    padding:50px;
-    background:#ffedab;
+    padding:20px;
+    background:#fff5d0;
     border-radius: 70px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 2rem;
     table {
+      font-size: 1.7rem;
       border: solid 5px #F0908D;
       border-radius: 4px;
       thead th {
@@ -83,16 +85,24 @@ header {
         border-radius: 1px;
       }
       th, td {
-        padding: 10px;
+        padding: 3px;
       }
+    }
+    li {
+      font-size: 1.7rem;
+    }
+    p {
+      font-size: 1.7rem;
+      letter-spacing: 1px;
+      line-height: 30px;
     }
     @media (min-width: 0px) and (max-width: 599px) {
         .title {
-            font-size:30px;
+            font-size: 3rem;
         }
     }
     .title {
-        margin: 50px auto;
+        margin: 30px auto;
         text-align: center;
         font-weight:bold;
         width: 100%;

@@ -5,9 +5,9 @@ import get from 'lodash/get'
 
 import './style.scss'
 
-import profileImage from '../assets/images/anharu_small.jpg'
-import favicon16 from '../assets/favicons/favicon-16x16.jpg'
-import favicon32 from '../assets/favicons/favicon-32x32.jpg'
+import profileImage from '../../assets/images/anharu_small.jpg'
+import favicon16 from '../../assets/favicons/favicon-16x16.jpg'
+import favicon32 from '../../assets/favicons/favicon-32x32.jpg'
 
 class TemplateWrapper extends React.Component {
   render () {
@@ -37,7 +37,7 @@ class TemplateWrapper extends React.Component {
           ]}
         />
         <div className="template-wrapper-children">
-          { children() }
+          { children }
         </div>
       </div>
     )

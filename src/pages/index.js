@@ -1,4 +1,5 @@
 import React from 'react'
+import TemplateWrapper from '../components/TemplateWrapper'
 import ExperienceSection from '../components/ExperienceSection'
 import ProjectsSection from '../components/ProjectsSection'
 import About from '../components/Sidebar/About'
@@ -8,6 +9,7 @@ import Link from "gatsby-link"
 import './style.scss'
 
 const IndexPage = () => (
+  <TemplateWrapper>
     <div className="index">
       <div className="main">
         <h5>
@@ -31,6 +33,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+  </TemplateWrapper>
 )
 
 export default IndexPage

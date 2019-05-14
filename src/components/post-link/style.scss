@@ -1,20 +1,17 @@
 a {
     text-decoration:none;
 }
-h1 {
-    text-align:center;
-}
 .post {
     margin:50px 100px;
-    padding:20px;
-    background:#ffedab;
+    padding:10px;
+    background:#fff5d0;
     border-radius: 100px;
     .title {
         color:black;
         margin: 40px 0px;
         text-align: center;
         font-weight:bold;
-        font-size:35px;
+        font-size:2em;
         font-family: 'Kosugi Maru', sans-serif;
     }
     .date{
@@ -31,20 +28,19 @@ h1 {
     }
 
     @media (min-width: 0px) and (max-width: 599px) {
+        min-height: 80px;
+        margin: 8px;
         .title {
-            font-size: 20px;
-            margin: 20px 0;
+            font-size: 1.1em;
+            margin: 10px 0;
         }
         .date{
+          font-size: 0.9rem;
             margin:5px 0;
         }
         .title-border {
             width: 60%;
+            height: 5px;
         }
     }
-}
-@media (min-width: 0px) and (max-width: 599px) {
-.post {
-    margin:30px 0px;
-}
 }

@@ -16,14 +16,25 @@ module.exports = {
      {
      resolve: 'gatsby-transformer-remark',
       options: {
-      plugins: [
-        {
-          resolve: `gatsby-remark-images`,
-          options: {
-            maxWidth: 1080,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1080,
+            },
           },
-        },
-      ] // just in case those previously mentioned remark plugins sound cool :)
+          `gatsby-remark-code-titles`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: false,
+            },
+          },
+        ] // just in case those previously mentioned remark plugins sound cool :)
       }
      },
     'gatsby-plugin-sass',
@@ -38,15 +49,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "<your-tracking-id-here>",
+        trackingId: "UA-104646571-3",
         head: true
       }
     },
+    `gatsby-plugin-sitemap`,
   ],
   siteMetadata: {
     title: 'Anharu Portfolio',
     description: 'JCエンジニアAnharuのPortfolioです。',
     keywords: 'Anharu, portfolio, personal website',
-    url: 'http://anharu2394.github.io'
+    url: 'http://anharu2394.github.io',
+    siteUrl: 'http://anharu2394.github.io',
   }
 };
