@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{99:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Praagya Joshi",description:"Full stack product enginner",url:"https://www.praagya.com",keywords:"full stack, product enginner, portfolio, personal website"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----fef0909bf265b019bc47.js.map

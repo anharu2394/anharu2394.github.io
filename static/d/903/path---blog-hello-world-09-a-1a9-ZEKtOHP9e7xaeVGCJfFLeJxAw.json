@@ -1,0 +1,1 @@
+{"data":{"markdownRemark":{"html":"<h1>Hello World</h1>\n<pre><code class=\"language-ruby\">module Hello\n  def hello\n    puts \"Hello World\"\n  end\nend\n</code></pre>","frontmatter":{"date":"June 06, 2018","path":"/blog/hello-world","title":"Hello World"}}},"pageContext":{}}
