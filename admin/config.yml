@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: anharu2394/anharu2394.github.io
 
 media_folder: static/assets
 public_folder: assets
